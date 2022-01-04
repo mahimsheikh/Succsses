@@ -9,7 +9,7 @@ h1{
 .omg{
     color: orange;
 }
-section{
+.not{
     display: flex;
     margin-bottom:88px;
 }
@@ -38,4 +38,29 @@ section{
     background-image:url(images/dream-bg.png) ;
     background-repeat: no-repeat;
     background-position: right;
+}
+.dev{
+    box-shadow:10px 10px 40px gray ;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    width: 40%;
+}
+.pori{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#ull{
+    border-left: 7px solid;
+    border-image: linear-gradient(hsl(12, 88%, 49%), #4d9f0c) 30;
+    border border-image-slice: 1;
+}
+#sor{
+    border-left: 7px solid;
+    border-image: linear-gradient(hsl(246, 79%, 50%), #4d9f0c) 30;
+    border border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: hsl(hue, saturation, lightness);
 }
