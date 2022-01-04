@@ -11,24 +11,31 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom:88px;
 }
 .uff{
     width: 50%;
     padding-left:5%;
+    padding-right:5%;
 }
 .uff img{
     width: 88%;
 }
-.link{
-    text-decoration: none;
-    background-image: linear-gradient(yellow, orange);
-    padding: 10px 25px;
-    border-radius: 15px;
-    color:#b81313;
-    font-weight: 700;
+ .link{
+        text-decoration: none;
+        background-image: linear-gradient(yellow, orange);
+        padding: 10px 25px;
+        border-radius: 15px;
+        color:#b81313;
+        font-weight: 700;
 }
 .first{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+.love{
+    background-image:url(images/dream-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: right;
 }
